@@ -1,14 +1,12 @@
 <main>
-  <h1 class="title">Hello from Dupa !</h1>
-
-  <!-- Images (and assets) are parsed and loaded from within the public directory -->
-  <img src="/img/logo.png">
+  <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <!--<source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">-->
+    <source src="http://ec1.bigmir.net/sv/_1MgLb_x23tRs5d8f5cH-w/1496960934/video1/7/4/575447_2.mp4" type="video/mp4">
+  </video>
   <test></test>
   <about></about>
   <news></news>
   <map></map>
   <bands></bands>
 </main>
-<footer>
-  <a ng-href="{{app.url}}">Webpack Angular Starter</a>
-</footer>
